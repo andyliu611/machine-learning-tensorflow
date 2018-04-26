@@ -1,7 +1,7 @@
 # ASR on THCHS30
 ## Hybrid DNN-HMM Model
 * Acoustic model: 利用HMM聲學建模，隱馬爾可夫模型輸出從各個幀計算而得的聲學特徵，將wav檔轉成mfcc
-* Language model: DNN net
+* Language model:  Seq2seq model (RNN/GRU/LSTM)
 
 ### Requirements: 
 * **Tensorflow r1.5.1**
